@@ -9,6 +9,7 @@ My TV setup is like this:
 3. Active Speakers Samson
 4. Old Lenovo ThinkPad
 
+![TV_setup](images/TV_setup.jpg)  
 My wife likes to press only one button to make things work. She does not want to press the "On" button on 5 devices. Neither do I. I can understand that.  
 Incredibly enough the first 3 devices can be turned on and off just with the power socket.
 I have a "smart" power socket with remote control over 433MHz similar to [this](  
