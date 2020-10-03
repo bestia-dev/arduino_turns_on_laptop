@@ -20,7 +20,7 @@ ok. I am hoarding them. Don't judge.
 
 
 Great! I can use the remote with only one button on/off.  
-But the laptop is the exception. I need to press the "On" button manually.  
+But the laptop is the exception. I need to press the "On" button manually. Some laptop have the option in BIOS to "turn on when plugged", but not this model.  
 That was too much for my wife. Two buttons. No go...  
 
 ## Arduino
@@ -29,9 +29,15 @@ I am not very good in electronics, I am a programmer. I will not work with trans
 There are cheaper clones of Arduino and I bought the Smraza kit for 30€ with the microcontroller, servo motor and a bunch of other components. Great.  
 I connected the arduino uno clone to my TV USB port. So when the TV starts the port starts the microcontroller. A small program controls the servo motor to press the "On" button of the laptop. Easy.
 Everything together is connected the "balkan way" with a lot of duct tape, wires hanging around and a lead weight to achieve the force of pressure needed. Balkan people will understand.  
-Watch it in action on youtube: (LF2020-10-02 Arduino turns on laptop)[https://www.youtube.com/watch?v=VJjaTkirXVo]
+Watch it in action on youtube: [LF2020-10-02 Arduino turns on laptop](https://www.youtube.com/watch?v=VJjaTkirXVo)
 
 ## Why oh why
 
 It all sounds so perfect in my fantasy. But oh reality is a mess. The servo motor involuntary moves when it is attached (turned on) before any voluntary commands of mine are sent to him. You can see that first movement clearly in the youtube video. Try and error to achieve a not-so-perfect solution that looks completely unreliable and it could break at any time. I didn't find a solution yet. But I found a lot of people fighting the same problem. Why is that so hard to achieve? Just don't move until I command you so. What part is not understandable here? 
+
+## And that's it
+
+One button on the remote control to turn on 5 devices. The sound of the servo id funny, but not too much noisy.  
+The near button on the remote to turn everything off.  
+Unfortunately sometimes the Win 10 does not like to be unplugged so unpolitely and the next time it asks to check the disk or other recovery methods. But it is an SSD disk, so I don't expect any real problems. I just choose "restart the PC". And it all works. It happens very rare thought.
 
