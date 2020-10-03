@@ -16,7 +16,7 @@ I have a "smart" power socket with remote control over 433MHz similar to [this](
 https://www.amazon.it/deleyCON-prese-radio-Bianco-230-00V/dp/B074VV3T91/ref=pd_day0_79_1/258-7752702-2003723?_encoding=UTF8&pd_rd_i=B074VV3T91&pd_rd_r=bfca3e6c-c195-4fac-bd37-163603320a3d&pd_rd_w=jjQo3&pd_rd_wg=xFWr9&pf_rd_p=7d5a19b1-29b8-4833-bb91-8b454e183d9f&pf_rd_r=HN8XDY11J2Y5AQQVX8ZQ&psc=1&refRID=HN8XDY11J2Y5AQQVX8ZQ).  
 
 ok. I am hoarding them. Don't judge.  
-![433MHz](images/433MHz.png)
+![remote_433MHz](images/remote_433MHz.jpg)
 
 
 Great! I can use the remote with only one button on/off.  
