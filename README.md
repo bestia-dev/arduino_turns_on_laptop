@@ -41,3 +41,19 @@ One button on the remote control to turn on 5 devices. The sound of the servo id
 The near button on the remote to turn everything off.  
 Unfortunately sometimes the Win 10 does not like to be unplugged so unpolitely and the next time it asks to check the disk or other recovery methods. But it is an SSD disk, so I don't expect any real problems. I just choose "restart the PC". And it all works. It happens very rare thought.
 
+## Development
+
+Install the arduino IDE 1.8.13 (Win,Mac,Linux): [arduino software](https://www.arduino.cc/en/Main/Software).  
+In `Tools-Board` I choose the "Arduino Uno".  
+There are a great collection of simple examples to start learning with ease.  
+The word "sketch" is used for arduino programmes. It uses a C like language with libraries for interaction with components. The microcontroller is usually programmed in an infinite loop. The 2 classic sections of any "sketch" is the setup() and the loop() functions. The sketch file extension is ".ino".  
+My sketch is executed only once, after that I put the microcontroller to sleep. That is pretty unusual, though.   
+The servo motor needs time to rotate and the sketch needs to use delay() to wait for the movement in the real world.  
+Use the "Upload" button to compile and transfer the sketch to the microcontroller. It starts the execution immediately. It will store the sketch and start it every time the microcontroller is plugged in. Or it will restart the sketch after pressing the "Reset" button on the Arduino board.  
+
+## Rust
+
+I plan to do the same programme in Rust. Some knowledge is here: <https://dev.to/creativcoder/how-to-run-rust-on-arduino-uno-40c0>  
+I don't want to change my existing programming environment for Rust. I will try to use a docker image exclusively for Arduino programming.  
+
+
