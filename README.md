@@ -55,5 +55,7 @@ Use the "Upload" button to compile and transfer the sketch to the microcontrolle
 
 I plan to do the same programme in Rust. Some knowledge is here: <https://dev.to/creativcoder/how-to-run-rust-on-arduino-uno-40c0>  
 I don't want to change my existing programming environment for Rust. I will try to use a docker image exclusively for Arduino programming.  
+<https://github.com/Rahix/avr-hal>  
+
 
 
