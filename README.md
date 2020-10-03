@@ -25,4 +25,13 @@ That was too much for my wife. Two buttons. No go...
 
 ## Arduino
 
-I am not very good in electronics, I am a programmer. I will not work with transistors, relays, resistors and condensators. I prefer a microcontroller like arduino or a mini PC like RaspberryPi. I feel lucky it is all very affordable.  
+I am not very good in electronics, I am a programmer. I will not work with transistors, relays, resistors and capacitors. I prefer a microcontroller like Arduino or a mini PC like RaspberryPi. I feel lucky it is all very affordable.  
+There are cheaper clones of Arduino and I bought the Smraza kit for 30€ with the microcontroller, servo motor and a bunch of other components. Great.  
+I connected the arduino uno clone to my TV USB port. So when the TV starts the port starts the microcontroller. A small program controls the servo motor to press the "On" button of the laptop. Easy.
+Everything together is connected the "balkan way" with a lot of duct tape, wires hanging around and a lead weight to achieve the force of pressure needed. Balkan people will understand.  
+Watch it in action on youtube: (LF2020-10-02 Arduino turns on laptop)[https://www.youtube.com/watch?v=VJjaTkirXVo]
+
+## Why oh why
+
+It all sounds so perfect in my fantasy. But oh reality is a mess. The servo motor involuntary moves when it is attached (turned on) before any voluntary commands of mine are sent to him. You can see that first movement clearly in the youtube video. Try and error to achieve a not-so-perfect solution that looks completely unreliable and it could break at any time. I didn't find a solution yet. But I found a lot of people fighting the same problem. Why is that so hard to achieve? Just don't move until I command you so. What part is not understandable here? 
+
