@@ -1,9 +1,12 @@
 # arduino_turns_on_laptop
-Arduino and servo motor to press the On button on a laptop when the TV is turned on
 
-# Problem description
+**Arduino and servo motor to press the On button on a laptop when the TV is turned on** 
+***version: 1.0  date: 2020-10-01 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/arduino_turns_on_laptop)***  
+
+## Problem description
 
 My TV setup is like this:
+
 1. TV Panasonic
 2. Mixer Yamaha
 3. Active Speakers Samson
@@ -17,7 +20,6 @@ https://www.amazon.it/deleyCON-prese-radio-Bianco-230-00V/dp/B074VV3T91/ref=pd_d
 
 ok. I am hoarding them. Don't judge.  
 ![remote_433MHz](images/remote_433MHz.jpg)
-
 
 Great! I can use the remote with only one button on/off.  
 But the laptop is the exception. I need to press the "On" button manually. Some laptop have the option in BIOS to "turn on when plugged", but not this model.  
@@ -33,7 +35,7 @@ Watch it in action on youtube: [LF2020-10-02 Arduino turns on laptop](https://ww
 
 ## Why oh why
 
-It all sounds so perfect in my fantasy. But oh reality is a mess. The servo motor involuntary moves when it is attached (turned on) before any voluntary commands of mine are sent to him. You can see that first movement clearly in the youtube video. Try and error to achieve a not-so-perfect solution that looks completely unreliable and it could break at any time. I didn't find a solution yet. But I found a lot of people fighting the same problem. Why is that so hard to achieve? Just don't move until I command you so. What part is not understandable here? 
+It all sounds so perfect in my fantasy. But oh reality is a mess. The servo motor involuntary moves when it is attached (turned on) before any voluntary commands of mine are sent to him. You can see that first movement clearly in the youtube video. Try and error to achieve a not-so-perfect solution that looks completely unreliable and it could break at any time. I didn't find a solution yet. But I found a lot of people fighting the same problem. Why is that so hard to achieve? Just don't move until I command you so. What part is not understandable here?
 
 ## And that's it
 
@@ -47,7 +49,7 @@ Install the arduino IDE 1.8.13 (Win,Mac,Linux): [arduino software](https://www.a
 In `Tools-Board` I choose the "Arduino Uno".  
 There are a great collection of simple examples to start learning with ease.  
 The word "sketch" is used for arduino programmes. It uses a C like language with libraries for interaction with components. The microcontroller is usually programmed in an infinite loop. The 2 classic sections of any "sketch" is the setup() and the loop() functions. The sketch file extension is ".ino".  
-My sketch is executed only once, after that I put the microcontroller to sleep. That is pretty unusual, though.   
+My sketch is executed only once, after that I put the microcontroller to sleep. That is pretty unusual, though.
 The servo motor needs time to rotate and the sketch needs to use delay() to wait for the movement in the real world.  
 Use the "Upload" button to compile and transfer the sketch to the microcontroller. It starts the execution immediately. It will store the sketch and start it every time the microcontroller is plugged in. Or it will restart the sketch after pressing the "Reset" button on the Arduino board.  
 
@@ -56,6 +58,3 @@ Use the "Upload" button to compile and transfer the sketch to the microcontrolle
 I plan to do the same programme in Rust. Some knowledge is here: <https://dev.to/creativcoder/how-to-run-rust-on-arduino-uno-40c0>  
 I don't want to change my existing programming environment for Rust. I will try to use a docker image exclusively for Arduino programming.  
 <https://github.com/Rahix/avr-hal>  
-
-
-
