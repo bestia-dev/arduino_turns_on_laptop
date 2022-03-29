@@ -1,5 +1,5 @@
 /* Press the "On" button on Lenovo laptop
- by Luciano Bestia   2020-10-02
+ by bestia.dev   2020-10-02
 */
 
 #include <Servo.h>
