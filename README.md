@@ -3,6 +3,8 @@
 **Arduino and servo motor to press the On button on a laptop when the TV is turned on**  
 ***version: 1.0  date: 2020-10-01 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/arduino_turns_on_laptop)***  
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Farduino_turns_on_laptop&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 ## Problem description
 
 My TV setup is like this:
